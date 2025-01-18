@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Noto Sans Sora Sompeng", serif;
+}
+header {
+  /* border: 2px solid orange; */
+  display: flex;
+  justify-content: center;
+  background-color: #2b2b2b;
+}
+.nav-container {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 60px;
+  background-color: #2b2b2b;
+}
+.nav-img {
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  width: 30vh;
+}
+.nav-img h3 {
+  color: white;
+}
+.right-nav {
+  /* border: 2px solid yellow; */
+  display: flex;
+  align-items: center;
+}
+.right-nav ul {
+  display: flex;
+  gap: 90px;
+  list-style: none;
+}
+.right-nav ul li {
+  text-decoration: none;
+  color: white;
+}
+.right-nav button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: #a259ff;
+  border-radius: 10px;
+  margin-left: 40px;
+  color: white;
+}
+.discover-main-container {
+  /* border: 2px solid green; */
+  display: flex;
+  /* justify-content: ; */
+  width: 170vh;
+  /* margin-left: 90px; */
+  /* height: 90px; */
+}
+.discover-container {
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  width: 70vh;
+  height: 30em;
+}
+section {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b2b2b;
+  height: 80vh;
+}
+.discover-heading h1 {
+  font-size: 70px;
+  color: white;
+}
+.discover-heading p {
+  color: white;
+}
+.discover-button {
+}
+.discover-button button {
+  background-color: #a259ff;
+  border: none;
+  color: white;
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.dscover-img {
+  margin-left: 30px;
+}
+.dscover-img img {
+  width: 70vh;
+  height: 400px;
+}
+.hero {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 20px;
+  color: white;
+}
